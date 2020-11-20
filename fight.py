@@ -23,7 +23,7 @@ def main():
         sc2.maps.get('AcropolisLE'),
         [Bot(Race.Terran, bot1, name=bot1_name), Bot(Race.Terran, bot2, name=bot2_name)],
         realtime=False,
-        save_replay_as=f'replays/{bot1_name}_vs_{bot2_name}.SC2Replay',
+        save_replay_as=f'replays/season_01/{bot1_name}_vs_{bot2_name}.SC2Replay',
         game_time_limit=3600
     )
 
