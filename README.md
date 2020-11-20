@@ -48,7 +48,8 @@ The game works natively in Windows and Mac. Linux users get the best experience 
 In this repo you will find the map we will use for the tournament. It's called **Acropolis LE** and you can find it at `maps/AcropolisLE.SC2Map`.
 
 To install it, download the `AcropolisLE.SC2Map` file and place it into the root of the Starcraft `Maps` directory: `install-dir/Maps/AcropolisLE.SC2Map`.
-**e.g.** For Mac users, the `Maps` directory is at `/Applications/StarCraft II/Maps`
+If the `Maps` directory does not exist, create it.
+**e.g.** For Mac users, the `Maps` directory must be at `/Applications/StarCraft II/Maps`
 
 ### 3. Install Python
 

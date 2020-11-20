@@ -60,10 +60,10 @@ class MyBot(BotAI):
             # Check if we can afford to bui a Marine unit
             if (self.can_afford(UnitTypeId.MARINE)):
                 # Get the first Barracks structure
-                barracs = self.structures(UnitTypeId.BARRACKS).first
+                barracks = self.structures(UnitTypeId.BARRACKS).first
 
                 # Train a Marine unit
-                barracs.train(UnitTypeId.MARINE)
+                barracks.train(UnitTypeId.MARINE)
 
         # Check if we have at least 5 Marine units that are doing nothing
         if self.units(UnitTypeId.MARINE).idle.amount >= 5:
