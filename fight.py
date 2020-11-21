@@ -2,18 +2,18 @@ import sc2
 from sc2 import Race
 from sc2.player import Bot
 
-# from bots.season_01.andrea_bot import AndreaBot
-# from bots.season_01.angusin_bot import AngusinBot
-# from bots.season_01.basic_v2 import BasicV2
-from bots.season_01.kikamendor import Kikamendor
-from bots.season_01.retromonguer_bot import RetromonguerBot
-# from bots.season_01.roberto import RobertoElRobot
+from bots.season_01.andrea_bot import AndreaBot as Andrea
+from bots.season_01.angusin_bot import AngusinBot as Miguek
+from bots.season_01.basic_v2 import BasicV2 as Edu
+from bots.season_01.kikamendor import Kikamendor as Kike
+from bots.season_01.retromonguer_bot import RetromonguerBot as Fabio
+from bots.season_01.roberto import RobertoElRobot as Matias
 
 
 def main():
     # Change only this part for the fight
-    bot1 = Kikamendor()
-    bot2 = RetromonguerBot()
+    bot1 = Andrea()
+    bot2 = Matias()
 
     # Do not modify this part
     bot1_name = bot1.__class__.__name__
