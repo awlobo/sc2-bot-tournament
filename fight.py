@@ -3,7 +3,7 @@ from sc2 import Race
 from sc2.player import Bot
 
 from bots.season_01.andrea_bot import AndreaBot as Andrea
-from bots.season_01.angusin_bot import AngusinBot as Miguek
+from bots.season_01.angusin_bot import AngusinBot as Miguel
 from bots.season_01.basic_v2 import BasicV2 as Edu
 from bots.season_01.kikamendor import Kikamendor as Kike
 from bots.season_01.retromonguer_bot import RetromonguerBot as Fabio
